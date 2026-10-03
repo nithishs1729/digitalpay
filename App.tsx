@@ -34,10 +34,7 @@ const brand = {
 
 function Logo() {
   return (
-    <div className="logo" aria-label="7-Eleven">
-      <span>7</span>
-      <strong>ELEVEN</strong>
-    </div>
+    <img className="logo" src="/assets/horizlogo_1645478836585-HR.png" alt="7-Eleven" />
   );
 }
 
@@ -176,7 +173,7 @@ export default function App() {
           <div className="brand-area">
             <Logo />
             <nav className="desktop-nav">
-              <a href="#food">FOOD</a><a href="#drinks">DRINKS</a><a className="active" href="#rewards">7REWARDS®</a><a href="#delivery">ORDER 7NOW® DELIVERY</a>
+              <a href="#food"><img className="brand-icon" src="/assets/7-eleven_logo.svg" alt="" />FOOD</a><a href="#drinks">DRINKS</a><a className="active" href="#rewards">7REWARDS®</a><a href="#delivery">ORDER 7NOW® DELIVERY</a>
             </nav>
           </div>
           <button className={`member-toggle ${member ? 'active' : ''}`} onClick={() => setMember((value) => !value)}>
