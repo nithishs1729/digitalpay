@@ -2,6 +2,8 @@
 
 Responsive 7-Eleven Fuel & Pay web experience built with Expo, React, TypeScript, and `react-native-web`. The site can be opened from a laptop or mobile browser and guides a customer through station verification, safety confirmation, pump selection, payment authorization, terminal-driven fueling, and receipt review.
 
+**Live website:** [digitalpay711.vercel.app](https://digitalpay711.vercel.app/)
+
 ## Features
 
 - Responsive desktop and mobile browser layout
@@ -77,6 +79,7 @@ The current implementation uses a five-second local timeout as a mock terminal c
 ├── index.ts            # Expo entry point
 ├── app.json            # Expo configuration
 ├── package.json        # Dependencies and scripts
+├── vercel.json         # Vercel build and output configuration
 ├── assets/             # App icons and splash assets
 └── tsconfig.json       # TypeScript configuration
 ```
